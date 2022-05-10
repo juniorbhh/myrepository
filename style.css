@@ -1,0 +1,63 @@
+
+    /*--body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap');
+
+body{
+  background-color: #22212C;
+  font-family: 'Merriweather Sans';
+  color: #837E9F;
+  grid-template-areas: "info project" "my onix";
+  display: grid;
+}
+
+.info{
+  background-color: #302F3D;
+  font-size: 14px;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 15px;
+  grid-area: info;
+}
+
+.info div {
+  padding-bottom: 20px;
+}
+  
+.project{
+  background-color: #302F3D;
+  padding: 20px;
+  margin-left: 30px;
+  border-radius: 15px;
+  grid-area: project;
+  width: 1400px;
+  height: 15px;
+  font-weight: bolder;
+}
+
+.veja{
+  text-decoration: none;
+  color: #837E9F;
+  font-size: 12px;
+  
+}
+
+.separa{
+  display: flex;
+  justify-content: space-between;
+}
+
+.veja:hover{
+  color: #b3a6ffc2;
+}
+
+.onix{
+  background-color: #302F3D;
+  font-size: 13px;
+  
+  
+}
+
